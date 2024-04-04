@@ -1,0 +1,15 @@
+Emmett
+## **Quiz**
+
+- What is the difference between ***var*** and ***let***?
+    -let is block scoped, var is assigned to the window object. You can reasign and redeclare
+with var but only reassign with let. Var can be hoisted because variables are declared first with var.
+- What is the difference between **var** and ***const***?
+    -Can't redeclare or reassign with const, can do both with var. Const is block scoped like let,
+which means the variable is accesable only in the parent code block {}
+- What is the difference between **let** and **const**?
+    -The same but let can redeclare and const can't.
+- What is hoisting?
+    -How the JS compiler works.Variables are "hoisted" to the top of the scope they're declared in.
+This allows us to access the variable name, but not it's value, before it is used. Function declarations are
+also hoisted.
